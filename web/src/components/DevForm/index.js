@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 import React, { useState, useEffect } from 'react'
 
 import './styles.css'
-=======
-import React, {useState, useEffect} from 'react';
->>>>>>> ed960398d048529076aa95f600dedf6ae43918d9
 
 function DevForm({ onSubmit }) {
     const [github_username, setGithubUsername] = useState('');
@@ -31,30 +27,17 @@ function DevForm({ onSubmit }) {
 
     async function handleSubmit(e) {
         e.preventDefault();
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> ed960398d048529076aa95f600dedf6ae43918d9
         await onSubmit({
             github_username,
             techs,
             latitude,
             longitude
         });
-<<<<<<< HEAD
-
-        setGithubUsername('');
-        setTechs('');        
-    }
-    
-=======
         
         setGithubUsername('');
         setTechs('');
     }
 
->>>>>>> ed960398d048529076aa95f600dedf6ae43918d9
     return (
         <form onSubmit={handleSubmit}>
             <div className="input-block">
@@ -109,11 +92,7 @@ function DevForm({ onSubmit }) {
 
             <button type="submit">Salvar</button>
         </form>
-<<<<<<< HEAD
-    )
-=======
     );
->>>>>>> ed960398d048529076aa95f600dedf6ae43918d9
 }
 
 export default DevForm;
