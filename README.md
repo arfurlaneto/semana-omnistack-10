@@ -1,14 +1,11 @@
 # Semana Omnistack 10
-
 ## DevRadar
 Find near developers based on their programming skills.
-
 ## Technologies Used
 - Node.js
 - React JS
 - React Native
 - Expo
-
 ## Back-end
 Setup your mongo instance.
 You can use docker:
@@ -25,18 +22,14 @@ yarn
 yarn run dev
 ```
 Back-end runs at port 3333.
-
 ## Web
 Edit `src/services/api.js` and add your back-end URL.
 ```
 import axios from 'axios';
-
 const api = axios.create({
     baseURL: 'http://localhost:3333'
 });
-
 export default api;
-
 ```
 Install dependencies and run:
 ```
@@ -44,8 +37,19 @@ yarn
 yarn run start
 ```
 Front-end runs at port 3000.
-
 ## Mobile
+Edit `src/services/config.js` and add your back-end URL.
+```
+export default {
+    baseURL: 'http://localhost:3333'
+}
+```
+Install dependencies and run:
+```
+yarn
+yarn run start
+```
+Metro Bundler will open with your run options.
 
 ## Screenshots
 <p align="center">
