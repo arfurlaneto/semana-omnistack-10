@@ -24,8 +24,26 @@ Install dependencies and run:
 yarn
 yarn run dev
 ```
+Back-end runs at port 3333.
 
 ## Web
+Edit `src/services/api.js` and add your back-end URL.
+```
+import axios from 'axios';
+
+const api = axios.create({
+    baseURL: 'http://localhost:3333'
+});
+
+export default api;
+
+```
+Install dependencies and run:
+```
+yarn
+yarn run start
+```
+Front-end runs at port 3000.
 
 ## Mobile
 
