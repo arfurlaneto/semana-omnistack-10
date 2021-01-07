@@ -56,6 +56,6 @@ Metro Bundler will open with your run options.
   <img align="center" width="800" src="./.github/web_01.png"></img>
 </p>
 <p>
-  <img align="left" width="400" src="./.github/mobile_02.png"></img>
-  <img align="right" width="400" src="./.github/mobile_03.png"></img>
+  <img align="left" width="350" src="./.github/mobile_02.png"></img>
+  <img align="right" width="350" src="./.github/mobile_03.png"></img>
 </p>
